@@ -35,7 +35,7 @@ For each algorithm or model, we evaluated performance by looking at the accuracy
 
 - The balanced accuracy is 0.65
 - The high risk precision score is 0.01 with a sensitivity of 0.61
-- The low risk precision score is 0.99 with a sensitivity of 0.68
+- The low risk precision score is 1.0 with a sensitivity of 0.68
 - The extreme precision values can be attributed to the very unbalanced nature of the dataset
 
 ## SMOTE
@@ -54,7 +54,7 @@ For each algorithm or model, we evaluated performance by looking at the accuracy
 
 - The balanced accuracy is 0.62
 - The high risk precision score is 0.01 with a sensitivity of 0.61
-- The low risk precision score is 0.99 with a sensitivity of 0.64
+- The low risk precision score is 1.0 with a sensitivity of 0.64
 
 ## ClusterCentroids
 
@@ -72,7 +72,7 @@ For each algorithm or model, we evaluated performance by looking at the accuracy
 
 - The balanced accuracy is 0.62
 - The high risk precision score is 0.01 with a sensitivity of 0.61
-- The low risk precision score is 0.99 with a sensitivity of 0.43
+- The low risk precision score is 1.0 with a sensitivity of 0.43
 
 ## SMOTEENN
 
@@ -90,7 +90,7 @@ For each algorithm or model, we evaluated performance by looking at the accuracy
 
 - The balanced accuracy is 0.52
 - The high risk precision score is 0.01 with a sensitivity of 0.70
-- The low risk precision score is 0.99 with a sensitivity of 0.58
+- The low risk precision score is 1.0 with a sensitivity of 0.58
 
 ## Balanced Random Forest Classifier
 
