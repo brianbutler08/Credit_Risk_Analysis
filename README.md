@@ -33,6 +33,11 @@ For each algorithm or model, we evaluated performance by looking at the accuracy
 
 ![CR1](https://github.com/brianbutler08/Credit_Risk_Analysis/blob/main/Module_18_images/CR1.png)
 
+- The balanced accuracy is 0.65
+- The high risk precision score is 0.01 with a sensitivity of 0.61
+- The low risk precision score is 0.99 with a sensitivity of 0.68
+- The extreme precision values can be attributed to the very unbalanced nature of the dataset
+
 ## SMOTE
 
 **Accuracy Score**
@@ -46,6 +51,10 @@ For each algorithm or model, we evaluated performance by looking at the accuracy
 **Classification Report**
 
 ![CR2](https://github.com/brianbutler08/Credit_Risk_Analysis/blob/main/Module_18_images/CR2.png)
+
+- The balanced accuracy is 0.62
+- The high risk precision score is 0.01 with a sensitivity of 0.61
+- The low risk precision score is 0.99 with a sensitivity of 0.64
 
 ## ClusterCentroids
 
@@ -61,6 +70,10 @@ For each algorithm or model, we evaluated performance by looking at the accuracy
 
 ![CR3](https://github.com/brianbutler08/Credit_Risk_Analysis/blob/main/Module_18_images/CR3.png)
 
+- The balanced accuracy is 0.62
+- The high risk precision score is 0.01 with a sensitivity of 0.61
+- The low risk precision score is 0.99 with a sensitivity of 0.43
+
 ## SMOTEENN
 
 **Accuracy Score**
@@ -74,6 +87,10 @@ For each algorithm or model, we evaluated performance by looking at the accuracy
 **Classification Report**
 
 ![CR4](https://github.com/brianbutler08/Credit_Risk_Analysis/blob/main/Module_18_images/CR4.png)
+
+- The balanced accuracy is 0.52
+- The high risk precision score is 0.01 with a sensitivity of 0.70
+- The low risk precision score is 0.99 with a sensitivity of 0.58
 
 ## Balanced Random Forest Classifier
 
@@ -89,6 +106,10 @@ For each algorithm or model, we evaluated performance by looking at the accuracy
 
 ![CR5](https://github.com/brianbutler08/Credit_Risk_Analysis/blob/main/Module_18_images/CR5.png)
 
+- The balanced accuracy is 0.79
+- The high risk precision score is 0.03 with a sensitivity of 0.68
+- The low risk precision score is 1.0 with a sensitivity of 0.90
+
 ## Easy Emsemble Classifier
 
 **Accuracy Score**
@@ -102,5 +123,9 @@ For each algorithm or model, we evaluated performance by looking at the accuracy
 **Classification Report**
 
 ![CR6](https://github.com/brianbutler08/Credit_Risk_Analysis/blob/main/Module_18_images/CR6.png)
+
+- The balanced accuracy is 0.93
+- The high risk precision score is 0.06 with a sensitivity of 0.92
+- The low risk precision score is 1.0 with a sensitivity of 0.94
 
 # Summary
