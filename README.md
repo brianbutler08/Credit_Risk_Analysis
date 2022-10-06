@@ -1,15 +1,15 @@
-# Credit_Risk_Analysis
+# Credit Risk Analysis
 
 # Overview of the Analysis
 
-For this project, we developed several supervised machine learning models to predict credit risk.
+For this project, we utilized six different supervised machine learning models to predict credit risk. Three of them used resampling techniques (oversampling *or* undersampling), one used a combination of over- and undersampling and two were ensemble classifiers. 
 
 **Resampling Models**
-- Used the RandomOverSampler and SMOTE algorithms from imbalanced-learn to oversample the data
+- Used the RandomOverSampler and SMOTE algorithms to oversample the data
 - Undersampled the data using the ClusterCentroids algorithm
 - Used a combination of over- and undersampling with the SMOTEENN algorithm
 
-We used each algorith to resample the dataset, train a logistic regression classifier, calculate the balanced accuracy score, generate a confusion matrix, and generate a classification report. The use of SMOTEENN was to determine if the results from the combined approach are better at predicting credit risk than just the oversampling and undersampling algorithms.
+We used each algorithm to resample the dataset, train a logistic regression classifier, calculate the balanced accuracy score, generate a confusion matrix, and generate a classification report. The use of SMOTEENN was to determine if the results from the combined approach are better at predicting credit risk than just the oversampling and undersampling algorithms.
 
 **Emsemble Classifiers**
 
@@ -17,9 +17,9 @@ We trained and compared two different ensemble classifiers, BalancedRandomForest
 
 # Results
 
-For each algorithm or model, we evaluated performance by looking at the accuracy score, generating a confusion matrix and printing a classification report
+For each algorithm or model, we evaluated performance by looking at the accuracy score, generating a confusion matrix and printing a classification report.
 
-## RandomOverSampler
+## Random Over Sampler
 
 **Accuracy Score**
 
@@ -56,7 +56,7 @@ For each algorithm or model, we evaluated performance by looking at the accuracy
 - The high risk precision score is 0.01 with a sensitivity of 0.61
 - The low risk precision score is 1.0 with a sensitivity of 0.64
 
-## ClusterCentroids
+## Cluster Centroids
 
 **Accuracy Score**
 
@@ -129,3 +129,9 @@ For each algorithm or model, we evaluated performance by looking at the accuracy
 - The low risk precision score is 1.0 with a sensitivity of 0.94
 
 # Summary
+
+The primary challenge in developing the best model to assess credit risk is the tremendously unbalanced dataset that we are working with. The relatively low number of high risk loan applications makes it difficult to accurately predict for them. The extremely low (0.01 to 0.06) precision scores don't give us a tremendous amount of confidence in how reliable our positive classifications are. In looking at the balanced accuracy scores, none of the algorithms that utilized resampling techniques resulted in scores that are high enough to have much confidence in. However, the two ensemble models showed a lot more promise in this metric with a score or 0.79 for the balanced random forest classifier and 0.93 for the easy ensemble classifier. Each also displayed high sensitivity scores for both the low and high risk loans.
+
+Because of the precision scores for every model that we tested, it is difficult to recommend any of them for further application. However, if it was necessary to identify the most appropriate one then the easy ensemble classifier would be the best candidate.
+
+
